@@ -336,3 +336,46 @@ body {
 }
 
 /* end coupon related style */
+/* start membership related style */
+/* end membership related style */
+/* start login form related style */
+/* .login-form-container{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid red;
+    background-color: #E243A0;
+} */
+/* end login form related style */
+
+/* start footer related style */
+.footer-container {
+    background: #111010;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    color: #cfc8c8e6;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+small {
+    color: #ffffff66;
+    font-size: 12px;
+    font-weight: 400;
+   padding-bottom: 30px;
+}
+
+/* end footer related style */
