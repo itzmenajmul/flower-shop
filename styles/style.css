@@ -337,14 +337,15 @@ body {
 
 /* end coupon related style */
 /* start membership related style */
-.subscription-title{
+.subscription-title {
     color: #f8f406;
     text-align: center;
     font-size: 30px;
     font-weight: 800;
     margin-top: 80px;
 }
-.subscription-description{
+
+.subscription-description {
     color: #27272799;
     text-align: center;
     font-size: 12px;
@@ -352,33 +353,40 @@ body {
     line-height: 20px;
     margin-top: 10px;
 }
-.subscription-card{
+
+.subscription-card {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     gap: 20px;
-    
+
 }
-.card-one{
+
+.card-one {
     text-align: center;
     height: 200px;
     width: 200px;
     padding: 20px;
     box-shadow: 10px 10px 10px 10px #f77f7fd8;
+
 }
-.card-title{
+
+.card-title {
     color: #E55473;
     font-size: 20px;
     font-weight: 700;
     padding-bottom: 30px;
 }
-.card-one b{
+
+.card-one b {
     font-size: 50px;
 }
-.card-one sup{
+
+.card-one sup {
     color: #ed5a5adc;
 }
-.btn-subscription{
+
+.btn-subscription {
     border-radius: 8px;
     background: #E55473;
     padding: 10px 30px;
@@ -388,36 +396,87 @@ body {
     font-weight: 700;
     margin-top: 30px;
 }
-.card-two{
+
+.card-two {
     text-align: center;
     height: 200px;
     width: 200px;
     padding: 20px;
     box-shadow: 10px 10px 10px 10px #f8afafd8;
 }
-.card-two b{
+
+.card-two b {
     font-size: 50px;
 }
-.card-two sup{
+
+.card-two sup {
     color: #ed5a5adc;
 }
-.card-three{
+
+.card-three {
     text-align: center;
     height: 200px;
     width: 200px;
     padding: 20px;
     box-shadow: 10px 10px 10px 10px #f8afafd8;
 }
-.card-three b{
+
+.card-three b {
     font-size: 50px;
 }
-.card-three sup{
+
+.card-three sup {
     color: #ed5a5adc;
 }
 
 /* end membership related style */
 /* start login form related style */
+.login-form-container {
+    text-align: center;
+    margin-top: 100px;
+}
 
+.login-title {
+
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px #87ceeb;
+}
+.login-name{
+    font-size: 15px;
+    margin-right: 200px;
+    
+}
+.login-input{
+    padding: 15px;
+    border: 1px solid #ed5a5adc ;
+    border-radius: 5px;
+    background: #FFF;
+    width: 50%;
+}
+.sign-in-btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 30px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dont-account{
+    margin-right: 70px;
+}
 /* end login form related style */
 
 /* start footer related style */
@@ -447,7 +506,7 @@ small {
     color: #ffffff66;
     font-size: 12px;
     font-weight: 400;
-   padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 /* end footer related style */
