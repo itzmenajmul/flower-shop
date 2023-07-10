@@ -337,15 +337,87 @@ body {
 
 /* end coupon related style */
 /* start membership related style */
+.subscription-title{
+    color: #f8f406;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.subscription-description{
+    color: #27272799;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.subscription-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    
+}
+.card-one{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px #f77f7fd8;
+}
+.card-title{
+    color: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.card-one b{
+    font-size: 50px;
+}
+.card-one sup{
+    color: #ed5a5adc;
+}
+.btn-subscription{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 10px 30px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.card-two{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px #f8afafd8;
+}
+.card-two b{
+    font-size: 50px;
+}
+.card-two sup{
+    color: #ed5a5adc;
+}
+.card-three{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px #f8afafd8;
+}
+.card-three b{
+    font-size: 50px;
+}
+.card-three sup{
+    color: #ed5a5adc;
+}
+
 /* end membership related style */
 /* start login form related style */
-/* .login-form-container{
-    width: 500px;
-    text-align: center;
-    margin: auto;
-    border: 1px solid red;
-    background-color: #E243A0;
-} */
+
 /* end login form related style */
 
 /* start footer related style */
