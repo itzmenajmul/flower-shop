@@ -268,26 +268,71 @@ body {
     margin-bottom: 40px;
 }
 
-.insta-card-container{
+.insta-card-container {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 80px;
 }
-.insta-card-one img{
+
+.insta-card-one img {
     width: 200px;
     height: 240px;
 }
-.insta-card-two img{
+
+.insta-card-two img {
     width: 200px;
     height: 240px;
 }
-.insta-card-three img{
+
+.insta-card-three img {
     width: 200px;
     height: 240px;
 }
-.insta-card-foure img{
+
+.insta-card-foure img {
     width: 200px;
     height: 240px;
 }
 
 /* end instagram related style */
+
+/* start coupon related style */
+.coupon-container {
+    text-align: center;
+    background-image: url("../flower-asset/flower-bg.png");
+    width: 860px;
+    margin: auto;
+    height: 300px;
+    background-size: cover;
+
+}
+
+.coupon-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.coupon-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.coupon-input {
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    width: 30%;
+    margin-right: 15px;
+
+}
+
+/* end coupon related style */
