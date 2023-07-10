@@ -234,18 +234,60 @@ body {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-.hot-deal-btn{
+
+.hot-deal-btn {
     margin-left: 150px;
 }
-.hot-deal-img{
+
+.hot-deal-img {
     padding-top: 50px;
     padding-right: 200px;
     width: 250px;
-height: 330px;
+    height: 330px;
 }
 
 /* end hot deal related style */
 
 /* start instagram related style */
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.instagram-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.insta-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.insta-card-one img{
+    width: 200px;
+    height: 240px;
+}
+.insta-card-two img{
+    width: 200px;
+    height: 240px;
+}
+.insta-card-three img{
+    width: 200px;
+    height: 240px;
+}
+.insta-card-foure img{
+    width: 200px;
+    height: 240px;
+}
 
 /* end instagram related style */
