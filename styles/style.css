@@ -25,6 +25,10 @@ body {
     font-weight: 700;
 }
 
+.color-primary {
+    color: #E55473;
+}
+
 /* start banner related style */
 .banner-container {
     display: flex;
@@ -156,6 +160,7 @@ body {
     margin-top: 100px;
     padding-top: 50px;
     gap: 50px;
+    height: 150px;
 }
 
 .delivery-logo img {
@@ -182,12 +187,14 @@ body {
     font-weight: 600;
     padding-top: 20px;
 }
+
 .flower-logo p {
     color: #272727cc;
     font-size: 12px;
     font-weight: 600;
     padding-top: 20px;
 }
+
 .support-logo p {
     color: #272727cc;
     font-size: 12px;
@@ -198,5 +205,47 @@ body {
 /* end delivery related style */
 
 /* start hot deal related style */
+.hot-deal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e554730d;
+    margin-top: 100px;
+}
+
+.hot-deal-content {
+    padding-top: 100px;
+    padding-left: 200px;
+    margin-right: 100px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.hot-deal-description {
+    color: #27272799;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.hot-deal-btn{
+    margin-left: 150px;
+}
+.hot-deal-img{
+    padding-top: 50px;
+    padding-right: 200px;
+    width: 250px;
+height: 330px;
+}
 
 /* end hot deal related style */
+
+/* start instagram related style */
+
+/* end instagram related style */
